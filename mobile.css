@@ -1,0 +1,92 @@
+@media (max-width: 768px) {
+    .header-inner {
+        flex-direction: column;
+        height: auto;
+        padding: 16px 0;
+        gap: 16px;
+    }
+    
+    .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .hero-content {
+        align-items: center; 
+    }
+
+    .hero h1 {
+        font-size: 36px; 
+    }
+
+    .hero-image-wrapper {
+        min-height: 280px;
+        padding: 20px;
+    }
+
+    .stats {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding-bottom: 40px;
+    }
+
+    .stat-item {
+        align-items: center;
+    }
+
+    .skills h2 {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .skills-grid {
+        flex-direction: column; 
+    }
+
+    
+    .testimonial {
+        padding: 60px 20px;
+    }
+
+    .testimonial blockquote {
+        font-size: 18px;
+    }
+
+    
+    .cta {
+        height: auto;
+        padding: 60px 20px;
+    }
+
+    .cta h2 {
+        font-size: 32px;
+    }
+
+    .btn-large {
+        width: 100%; 
+        max-width: 300px;
+    }
+
+    .footer {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .footer-inner {
+        flex-direction: column;
+        gap: 24px;
+        text-align: center;
+    }
+
+    .footer-right {
+        align-items: center; 
+    }
+}
